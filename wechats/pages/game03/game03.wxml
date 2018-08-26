@@ -1,0 +1,8 @@
+<!--pages/game03/game03.wxml-->
+<view>
+  <view>
+    <text>是否喜欢上海？</text>
+    <button open-type="getUserInfo" >Yes</button>
+    <button open-type="getUserInfo" >No</button>
+  </view>
+</view>
