@@ -1,0 +1,22 @@
+<!--pages/game01/game01.wxml-->
+<view>
+  <view>
+   <!-- progress -->
+    <view>
+      <progress percent='{{progress_percent}}' show-info='true' stroke-width='5' color='red' activeColor='green' backgroundColor='black' active='true' active-mode='forwards'/> </view>
+
+    <!-- text -->
+    <view class="view_center">
+      <text>{{msg}}\n\n\n</text>
+    </view>
+    <view class="view_center">
+      <text>{{questionMsg}}\n\n\n</text>
+    </view>
+    <view class="flex-wrp"  style="flex-direction:row;">
+      <button class="buttonSizeYes" bindtap="changeTheMsg1">{{ChooseYes}}</button>
+      <button class="buttonSizeNo" bindtap="changeTheMsg2">{{ChooseNo}}</button>
+    </view>
+  </view>
+  <view>
+  </view>
+</view>

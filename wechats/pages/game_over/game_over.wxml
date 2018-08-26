@@ -1,0 +1,10 @@
+<!--pages/game_over/game_over.wxml-->
+<view>
+  <view  class="view_center">
+    <text>测试结果</text>
+  </view>
+
+  <view class="view_center">
+    <text>\n\n{{responseMsg}}</text>
+  </view>
+</view>

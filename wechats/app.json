@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/game01/game01",
+    "pages/game02/game02",
+    "pages/game03/game03",
+    "pages/game_over/game_over",
+    "pages/logs/logs"
+    
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#132412",
+    "navigationBarTextStyle": "while",
+    "navigationBarTitleText": "汤姆森的一天",
+    "backgroundColor": "black",
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh": true,
+    "onReachBottomDistance": 100
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页"
+    }, {
+      "pagePath": "pages/logs/logs",
+      "text": "日志"
+    }]
+  },
+  "networkTimeout": {
+    "request": 3000,
+    "downloadFile": 3000
+  },
+  "debug": true,
+  "requireBackgroundModes":["audio"]
+}
